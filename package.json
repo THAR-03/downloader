@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-downloader-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WhatsApp downloader bot skeleton for content you own or are authorized to download.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": { "node": ">=24" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.20",
+    "dotenv": "^16.6.1",
+    "pino": "^9.7.0"
+  }
+}
